@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetic Journal - By Your Name</title>
+    <style>
+        body {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" opacity="0.1"><rect width="100" height="100" fill="none" stroke="%235d4037" stroke-width="1"/></svg>');
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 20px;
+            color: #3e2723;
+            line-height: 1.6;
+        }
+        
+        .journal-paper {
+            background: #efebe9;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            border: 15px solid #d7ccc8;
+            border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" fill="%23d7ccc8"/><path d="M0,0 L100,100 M100,0 L0,100" stroke="%23bcaaa4" stroke-width="1"/></svg>') 30 stretch;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px dashed #a1887f;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2.5em;
+            color: #4e342e;
+            letter-spacing: 2px;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: #6d4c41;
+            margin-top: 10px;
+        }
+        
+        .poem-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .poem-item {
+            padding: 10px 0;
+            border-bottom: 1px dashed #bcaaa4;
+        }
+        
+        .poem-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+            color: #5d4037;
+        }
+        
+        .poem-link {
+            text-decoration: none;
+            color: #3e2723;
+            display: block;
+            padding: 8px 10px;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+        
+        .poem-link:hover {
+            background-color: #d7ccc8;
+            color: #3e2723;
+            transform: translateX(5px);
+        }
+        
+        .poem-excerpt {
+            font-size: 0.9em;
+            color: #7d5d57;
+            margin: 5px 0 0 15px;
+            font-style: italic;
+        }
+        
+        .old-separator {
+            text-align: center;
+            margin: 20px 0;
+            color: #a1887f;
+            font-size: 1.2em;
+        }
+        
+        .signature {
+            text-align: right;
+            margin-top: 30px;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 1.8em;
+            color: #5d4037;
+        }
+        
+        .decoration {
+            position: absolute;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        
+        .decoration.top-left {
+            top: 20px;
+            left: 20px;
+            transform: rotate(-10deg);
+        }
+        
+        .decoration.bottom-right {
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="journal-paper">
+        <div class="decoration top-left">✒</div>
+        <div class="decoration bottom-right">✒</div>
+        
+        <header class="header">
+            <h1>Your Name</h1>
+            <div class="subtitle">A Collection of Poetic Thoughts</div>
+        </header>
+        
+        <main>
+            <h2>My Poems</h2>
+            <ul class="poem-list">
+                <li class="poem-item">
+                    <a href="poem1.html" class="poem-link">
+                        <div class="poem-title">The Morning Dew</div>
+                        <div class="poem-excerpt">A reflection on nature's first light...</div>
+                    </a>
+                </li>
+                <li class="poem-item">
+                    <a href="poem2.html" class="poem-link">
+                        <div class="poem-title">Whispers in the Wind</div>
+                        <div class="poem-excerpt">Thoughts carried through the trees...</div>
+                    </a>
+                </li>
+                <li class="poem-item">
+                    <a href="poem3.html" class="poem-link">
+                        <div class="poem-title">Moonlit Serenade</div>
+                        <div class="poem-excerpt">A night's contemplation under stars...</div>
+                    </a>
+                </li>
+                <li class="poem-item">
+                    <a href="poem4.html" class="poem-link">
+                        <div class="poem-title">The Old Oak Tree</div>
+                        <div class="poem-title">Stories of time and resilience...</div>
+                    </a>
+                </li>
+                <li class="poem-item">
+                    <a href="poem5.html" class="poem-link">
+                        <div class="poem-title">Eternal Spring</div>
+                        <div class="poem-excerpt">Renewal and hope in every bloom...</div>
+                    </a>
+                </li>
+            </ul>
+        </main>
+        
+        <div class="old-separator">❧❧❧</div>
+        
+        <div class="signature">Your Name</div>
+    </div>
+</body>
+</html>
